@@ -78,3 +78,6 @@ ninja = {
     age: 40,
     // kill : true
 }
+
+
+//.......explicit types.......

@@ -37,6 +37,7 @@
 
 //.....Arrays........
 let names = ['soujan','shreya','meghna','shrena'];
+// names = 'souji';
 names.push('sanudai');
 // names.push(1);
 // names[0] = 3;
@@ -49,4 +50,31 @@ let mixed = ['ken',4,true,'chun-li',8,false,9];
 
 
 //you need to declare the type of array in the start
+//array type cannot be changed after declaration
+
+mixed.push('ryan');
+mixed.push(55);
+mixed[2] = 'Subedi';
+
 //.....Objects......
+
+//type rules are same as array
+let ninja = {
+    name: 'mario',
+    belt: 'black',
+    age: 30
+};
+
+ninja.name = 'soujan';
+ninja.age = 20;
+// ninja.age = '30';
+// ninja.skills = ['fight'];
+
+
+//overide the object
+ninja = {
+    name: 'yoshi',
+    belt: 'green',
+    age: 40,
+    // kill : true
+}
